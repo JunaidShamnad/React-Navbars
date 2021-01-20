@@ -6,8 +6,8 @@ export const Nav=styled.nav`
     background:#000;
     height: 80px;
     display:flex;
-    justify-content:flex-start;
-    padding:0.5rem calc((100vw - 1000px) /2);
+    justify-content: flex-start;
+    padding: 0.5rem calc((100vw - 1000px) /2);
     z-index:10;
 `;
 
@@ -66,7 +66,7 @@ export const NavBtn=styled.nav`
 export const NavBtnLink=styled(Link)`
     border-radius:4px;
     background: rgb(37,108,225);
-background: linear-gradient(117deg, rgba(37,108,225,1) 0%, rgba(22,98,224,1) 20%, rgba(8,83,204,1) 41%, rgba(2,76,195,1) 59%, rgba(12,79,189,1) 85%);
+    background: linear-gradient(117deg, rgba(37,108,225,1) 0%, rgba(22,98,224,1) 20%, rgba(8,83,204,1) 41%, rgba(2,76,195,1) 59%, rgba(12,79,189,1) 85%);
     padding:10px 22px;
     color: #fff;
     border:none;
