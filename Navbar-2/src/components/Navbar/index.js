@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import {FaBars} from "react-icons/fa";
 import { IconContext} from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
-import {Nav,NavLink,Bars,NavMenu,NavBtn,NavBtnLink,NavItem,NavbarContainer,MobileIcon} from './NavbarElements';
+import {Nav,NavLink,NavMenu,NavBtn,NavBtnLink,NavItem,NavbarContainer,MobileIcon} from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
     const [scrollNav,setScrollNav]=useState(false)

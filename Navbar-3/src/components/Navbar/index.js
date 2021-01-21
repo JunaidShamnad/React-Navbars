@@ -8,7 +8,6 @@ import {
   MobileIcon,
   NavItem,
   NavLink,
-  Bars,
   NavMenu,
   NavBtn,
   NavBtnLink,
