@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
@@ -8,11 +8,19 @@ import Contact from './pages/contact-us';
 import Services from './pages/services';
 import SignIn from './pages/sign-in';
 import SignUp from './pages/sign-up';
+import Sidebar from "./components/Sidebar";
 
 function App() {
+
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <Router>
-      <Navbar/>
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
       <Switch>
         <Route path="/" exact component={Home}/>
         <Route path="/about" exact component={About}/>
