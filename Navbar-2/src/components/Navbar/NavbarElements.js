@@ -50,6 +50,7 @@ export const NavLink=styled(LinkR)`
     align-items:center;
     text-decoration:none;
     padding:0 1rem;
+    margin-bottom:6px;
     height: 100%;
     cursor:pointer;
 

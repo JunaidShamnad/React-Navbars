@@ -49,20 +49,18 @@ export const NavItem = styled.li`
   /* height:80px; */
 `;
 
-export const NavLink=styled(LinkS)`
+export const NavLink=styled(LinkR)`
+ /* If you need smooth scroll change (LinkR) to (LinkS) */
     color:#fff;
     display:flex;
     align-items:center;
     text-decoration:none;
     padding:0 1rem;
+    margin-bottom:6px;
     height: 100%;
     cursor:pointer;
 
-    &.active{
-        color: #15cdfc;
-        border-bottom: 3px solid #01bf71;
-    }
-
+  
     &:hover {
     color:#2477ff;
     transition: 0.3s ease-in-out;
