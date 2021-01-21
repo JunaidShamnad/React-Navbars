@@ -9,6 +9,7 @@ import Services from './pages/services';
 import SignIn from './pages/sign-in';
 import SignUp from './pages/sign-up';
 import Sidebar from "./components/Sidebar";
+import Footer from './components/Footer';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/sign-up" exact component={SignUp}/>
         <Route path="/sign-in" exact component={SignIn}/>
       </Switch>
+          <Footer/>
     </Router>
   );
 }
