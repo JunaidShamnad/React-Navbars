@@ -3,7 +3,7 @@
 # Navbar 2
 ![Design and Development](https://github.com/JunaidShamnad/React-Navbars/blob/main/Navbar-2.png)<br/>
 # Navbar 3
-![Design and Development](https://github.com/JunaidShamnad/React-Navbars/blob/main/Navbar-3.png)<br/>
+![Design and Development](https://github.com/JunaidShamnad/React-Navbars/blob/main/Navbar-3.png)<br/><br/>
 
 # Getting Started with Create React App
 
